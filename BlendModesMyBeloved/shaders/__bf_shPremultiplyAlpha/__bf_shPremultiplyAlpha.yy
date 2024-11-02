@@ -1,7 +1,7 @@
 {
   "$GMShader":"",
-  "%Name":"__bf_shPremultiply",
-  "name":"__bf_shPremultiply",
+  "%Name":"__bf_shPremultiplyAlpha",
+  "name":"__bf_shPremultiplyAlpha",
   "parent":{
     "name":"BlendingFix",
     "path":"folders/KazanGames/BlendingFix.yy",

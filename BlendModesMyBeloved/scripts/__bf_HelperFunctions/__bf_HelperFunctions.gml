@@ -1,4 +1,2 @@
 
-function __bf_HelperFunctions() {
-
-}
+// TO-DO?

@@ -39,7 +39,7 @@
     {"id":{"name":"scrTest5PMAShader","path":"scripts/scrTest5PMAShader/scrTest5PMAShader.yy",},},
     {"id":{"name":"scrTest6SurfaceInsideSurface","path":"scripts/scrTest6SurfaceInsideSurface/scrTest6SurfaceInsideSurface.yy",},},
     {"id":{"name":"__bf_shAlphaOne","path":"shaders/__bf_shAlphaOne/__bf_shAlphaOne.yy",},},
-    {"id":{"name":"__bf_shPremultiply","path":"shaders/__bf_shPremultiply/__bf_shPremultiply.yy",},},
+    {"id":{"name":"__bf_shPremultiplyAlpha","path":"shaders/__bf_shPremultiplyAlpha/__bf_shPremultiplyAlpha.yy",},},
     {"id":{"name":"sprBackground","path":"sprites/sprBackground/sprBackground.yy",},},
     {"id":{"name":"sprPlanet","path":"sprites/sprPlanet/sprPlanet.yy",},},
     {"id":{"name":"sprPlanetCloudsPMA","path":"sprites/sprPlanetCloudsPMA/sprPlanetCloudsPMA.yy",},},
