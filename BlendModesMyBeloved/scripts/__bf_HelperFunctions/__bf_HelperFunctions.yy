@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"__bf_HelperFunctions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"__bf_HelperFunctions",
+  "parent":{
+    "name":"BlendingFix",
+    "path":"folders/KazanGames/BlendingFix.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

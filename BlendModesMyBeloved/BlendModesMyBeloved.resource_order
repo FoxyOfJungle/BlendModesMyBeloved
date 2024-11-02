@@ -1,0 +1,22 @@
+{
+  "FolderOrderSettings":[
+    {"name":"Example","order":7,"path":"folders/Example.yy",},
+    {"name":"Objects","order":2,"path":"folders/Example/Objects.yy",},
+    {"name":"Rooms","order":3,"path":"folders/Example/Rooms.yy",},
+    {"name":"Scripts","order":1,"path":"folders/Example/Scripts.yy",},
+    {"name":"Use Cases","order":1,"path":"folders/Example/Scripts/Use Cases.yy",},
+    {"name":"BlendingFix","order":1,"path":"folders/KazanGames/BlendingFix.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"README","order":8,"path":"notes/README/README.yy",},
+    {"name":"__bf_HelperFunctions","order":2,"path":"scripts/__bf_HelperFunctions/__bf_HelperFunctions.yy",},
+    {"name":"scrTest2Classic","order":1,"path":"scripts/scrTest2Classic/scrTest2Classic.yy",},
+    {"name":"scrTest3DisableAlpha","order":2,"path":"scripts/scrTest3DisableAlpha/scrTest3DisableAlpha.yy",},
+    {"name":"scrTest4BlendModes","order":3,"path":"scripts/scrTest4BlendModes/scrTest4BlendModes.yy",},
+    {"name":"scrTest5PMA","order":4,"path":"scripts/scrTest5PMA/scrTest5PMA.yy",},
+    {"name":"scrTest6SurfaceInsideSurface","order":5,"path":"scripts/scrTest6SurfaceInsideSurface/scrTest6SurfaceInsideSurface.yy",},
+    {"name":"__bf_shAlphaOne","order":1,"path":"shaders/__bf_shAlphaOne/__bf_shAlphaOne.yy",},
+    {"name":"sprPlanet","order":2,"path":"sprites/sprPlanet/sprPlanet.yy",},
+    {"name":"sprPlanetCloudsPMA","order":1,"path":"sprites/sprPlanetCloudsPMA/sprPlanetCloudsPMA.yy",},
+  ],
+}
