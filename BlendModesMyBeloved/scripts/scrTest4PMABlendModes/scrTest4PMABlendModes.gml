@@ -8,6 +8,13 @@ function BlendTest4() : BlendTestClass() constructor {
 	static Draw = function(_xx, _yy, _ww, _hh, _toggleFixIndex) {
 		var _subTitle = "";
 		
+		/*
+			How this fixes the problem:
+			"bm_src_alpha, bm_inv_src_alpha" is equivalent to "bm_normal". We are using "bm_one" in the source alpha, so that the alpha is preserved, thus avoiding it looking that weird.
+			
+			When drawing the surface, we preserve the source colors and opacity of the alpha channel, and multiply it by the inverse of the bottom opacity (destination).
+		*/
+		
 		// =============================================================
 		// crate surface
 		if (!surface_exists(surface)) {
