@@ -40,7 +40,7 @@ function BlendTest6() : BlendTestClass() constructor {
 		
 		
 		// draw second surface
-		gpu_set_blendmode_ext(bm_one, bm_inv_src_alpha);
+		gpu_set_blendmode_ext(bm_one, bm_inv_src_alpha); // application_surface is a surface too! we are still drawing A SURFACE INSIDE SURFACE
 		draw_surface(surface, _xx, _yy);
 		
 		
