@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scrTest4BlendModes",
+  "%Name":"scrTest5PMAShader",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scrTest4BlendModes",
+  "name":"scrTest5PMAShader",
   "parent":{
     "name":"Use Cases",
     "path":"folders/Example/Scripts/Use Cases.yy",
