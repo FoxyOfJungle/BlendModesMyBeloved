@@ -1,7 +1,7 @@
 
 /// @desc Drawing to application_surface
 function BlendTest4() : BlendTestClass() constructor {
-	title = "Surface";
+	title = "Surface with PMA blendmode";
 	
 	surface = -1;
 	

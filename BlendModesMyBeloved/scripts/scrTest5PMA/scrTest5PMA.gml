@@ -1,7 +1,7 @@
 
 /// @desc Drawing to application_surface
 function BlendTest5() : BlendTestClass() constructor {
-	title = "Surface with PMA";
+	title = "Surface with PMA shader";
 	
 	surface = -1;
 	
@@ -20,7 +20,7 @@ function BlendTest5() : BlendTestClass() constructor {
 			
 			gpu_push_state();
 			if (_toggleFixIndex > 0) {gpu_set_blendmode_ext(bm_one, bm_inv_src_alpha); _subTitle = "blendmode inside";}
-			if (_toggleFixIndex > 1) {shader_set(__bf_shPremultiply); _subTitle = "blendmode inside + PMA shader";}
+			if (_toggleFixIndex > 1) {shader_set(__bf_shPremultiply); _subTitle = "blendmode inside + shader";}
 				draw_sprite(sprPlanet, 0, 100, 100);
 				__draw_text_test(100, 100, "Hello World!");
 			shader_reset();
@@ -31,7 +31,7 @@ function BlendTest5() : BlendTestClass() constructor {
 		
 		// draw surface
 		gpu_push_state();
-		if (_toggleFixIndex > 2) {gpu_set_blendmode_ext(bm_one, bm_inv_src_alpha); _subTitle = "blendmode (inside+outside) + PMA shader";}
+		if (_toggleFixIndex > 2) {gpu_set_blendmode_ext(bm_one, bm_inv_src_alpha); _subTitle = "blendmode (inside+outside) + shader";}
 		draw_surface(surface, _xx, _yy);
 		gpu_pop_state();
 		
