@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"__bf_shAlpha",
+  "name":"__bf_shAlpha",
+  "parent":{
+    "name":"BlendingFix",
+    "path":"folders/KazanGames/BlendingFix.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

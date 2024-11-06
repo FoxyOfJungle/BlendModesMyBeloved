@@ -38,6 +38,7 @@
     {"id":{"name":"scrTest4PMABlendModes","path":"scripts/scrTest4PMABlendModes/scrTest4PMABlendModes.yy",},},
     {"id":{"name":"scrTest5PMAShader","path":"scripts/scrTest5PMAShader/scrTest5PMAShader.yy",},},
     {"id":{"name":"scrTest6SurfaceInsideSurface","path":"scripts/scrTest6SurfaceInsideSurface/scrTest6SurfaceInsideSurface.yy",},},
+    {"id":{"name":"__bf_shAlpha","path":"shaders/__bf_shAlpha/__bf_shAlpha.yy",},},
     {"id":{"name":"__bf_shAlphaOne","path":"shaders/__bf_shAlphaOne/__bf_shAlphaOne.yy",},},
     {"id":{"name":"__bf_shPremultiplyAlpha","path":"shaders/__bf_shPremultiplyAlpha/__bf_shPremultiplyAlpha.yy",},},
     {"id":{"name":"sprBackground","path":"sprites/sprBackground/sprBackground.yy",},},
