@@ -37,7 +37,7 @@ function BlendTest6() : BlendTestClass() constructor {
 		
 		
 		// Draw second surface
-		gpu_set_blendmode_ext(bm_one, bm_inv_src_alpha); // application_surface is a surface too! we are still drawing A SURFACE INSIDE SURFACE
+		gpu_set_blendmode_ext(bm_one, bm_inv_src_alpha); // ALWAYS USE THIS WHEN DRAWING THE SURFACE INSIDE SURFACE (application_surface is a surface too!)
 		draw_surface(surface, _xx, _yy);
 		
 		// IF WANT TO FADE (WITH ALPHA) THE SURFACE, YOU WILL NEED A SHADER
