@@ -21,6 +21,10 @@ repeat(isize) {
 	_item = testList[i];
 	_item.Draw(_xx, _yy, _spacingW, _spacingH, toggleFixIndex);
 	
+	// draw title
+	draw_text_shadow(_xx, _yy, _item.title + " | " + _item.subTitle, _spacingW);
+		
+	// draw area rectangle
 	draw_rectangle_color(_xx, _yy, _xx+_spacingW, _yy+_spacingH, _color, _color, _color, _color, true);
 	
 	_xx += _spacingW + 32;
