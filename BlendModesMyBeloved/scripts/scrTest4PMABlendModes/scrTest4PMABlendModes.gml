@@ -9,7 +9,7 @@ function BlendTest4() : BlendTestClass() constructor {
 			surface = surface_create(250, 200);
 		}
 		
-		// draw sprite to surface
+		// Draw sprite to surface
 		surface_set_target(surface);
 			draw_clear_alpha(c_black, 0);
 			
