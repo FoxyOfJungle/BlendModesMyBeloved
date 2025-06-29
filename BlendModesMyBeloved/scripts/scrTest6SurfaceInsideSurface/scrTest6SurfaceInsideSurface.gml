@@ -41,10 +41,9 @@ function BlendTest6() : BlendTestClass() constructor {
 		draw_surface(surface, _xx, _yy);
 		
 		// IF WANT TO FADE (WITH ALPHA) THE SURFACE, YOU WILL NEED A SHADER
-		// Draw second surface
 		/*shader_set(__bf_shAlpha);
 		shader_set_uniform_f(shader_get_uniform(__bf_shAlpha, "u_alpha"), mouse_x/room_width);
-		draw_surface(surface, _xx, _yy);
+		draw_surface(surface, _xx, _yy);  // (comment line 41)
 		shader_reset();*/
 		
 		gpu_set_blendmode(bm_normal);
