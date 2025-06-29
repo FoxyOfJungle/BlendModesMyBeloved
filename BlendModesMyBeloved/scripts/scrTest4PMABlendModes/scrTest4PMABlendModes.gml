@@ -1,7 +1,7 @@
 
 /// @desc Drawing to application_surface
 function BlendTest4() : BlendTestClass() constructor {
-	title = "Surface with PMA blendmode";
+	title = "Surface with PMA blendmode (BEST)";
 	
 	static Draw = function(_xx, _yy, _ww, _hh, _toggleFixIndex) {
 		// Crate surface
