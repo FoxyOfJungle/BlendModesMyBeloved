@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scrIrrelevant",
+  "%Name":"scrDemoOnly",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scrIrrelevant",
+  "name":"scrDemoOnly",
   "parent":{
     "name":"Scripts",
     "path":"folders/Example/Scripts.yy",

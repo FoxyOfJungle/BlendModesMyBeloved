@@ -9,7 +9,6 @@
   ],
   "ResourceOrderSettings":[
     {"name":"README","order":8,"path":"notes/README/README.yy",},
-    {"name":"__bf_HelperFunctions","order":3,"path":"scripts/__bf_HelperFunctions/__bf_HelperFunctions.yy",},
     {"name":"scrTest2Classic","order":1,"path":"scripts/scrTest2Classic/scrTest2Classic.yy",},
     {"name":"scrTest3DisableAlpha","order":2,"path":"scripts/scrTest3DisableAlpha/scrTest3DisableAlpha.yy",},
     {"name":"scrTest4PMABlendModes","order":3,"path":"scripts/scrTest4PMABlendModes/scrTest4PMABlendModes.yy",},

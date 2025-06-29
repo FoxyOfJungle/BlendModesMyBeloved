@@ -4,7 +4,6 @@ function BlendTest2() : BlendTestClass() constructor {
 	title = "[BAD - CLASSIC WAY] Surface with draw_clear_alpha(c_black, 0) only";
 	
 	static Draw = function(_xx, _yy, _ww, _hh, _toggleFixIndex) {
-		// =============================================================
 		// Crate surface
 		if (!surface_exists(surface)) {
 			surface = surface_create(250, 200);
